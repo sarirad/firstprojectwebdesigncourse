@@ -1,15 +1,25 @@
 body{
-         margin: 0;
+    margin: 0;
   font-family: heebo, sans-serif;
   line-height: 1.5;
-    color: black;
-    
-
+    color: darkslategrey;
+    font-weight: 400;
+    font-size: 16px;
 }
 h1{
-    color: midnightblue
+    color: darkblue;
+    font-weight: 700;
 }
-h2{color: darkcyan}
+
+h2{
+    color: darkcyan;
+    font-weight: 700;
+}
+
+h3{
+    color: indianred;
+    font-weight: 500
+}
 img {
   max-width: 100%;
   width: auto;
