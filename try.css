@@ -8,9 +8,12 @@ body {
 }
 
 h1 {
-    color: darkblue;
+    color: darkslategray;
     font-weight: 700;
-    font-family: 'amatic sc', cursive;
+    font-family: heebo;
+    text-align: center;
+    background-color: seashell;
+    padding: 20px;
 }
 
 h2 {
@@ -34,4 +37,27 @@ img {
     margin: auto;
 
 
+}
+
+.cta {
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 2px;
+}
+
+.cta h3 {
+    color: black;
+}
+
+.cta p {
+    color: black;
+}
+
+.bottom {
+    color: white;
+    text-decoration: none;
+    background-color: indianred;
+    padding: 10px;
 }
