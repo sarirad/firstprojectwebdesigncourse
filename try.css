@@ -12,17 +12,17 @@ h1 {
     font-weight: 700;
     font-family: heebo;
     text-align: center;
-    background-color: seashell;
+    background-color: #f4ede3;
     padding: 20px;
 }
 
 h2 {
-    color: darkcyan;
+    color: #4b8709;
     font-weight: 700;
 }
 
 h3 {
-    color: indianred;
+    color: #bd2d27;
     font-weight: 500
 }
 
@@ -40,11 +40,12 @@ img {
 }
 
 .cta {
-    text-align: center;
     background-color: lightblue;
     margin-top: 15px;
-    padding-bottom: 30px;
-    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    overflow: hidden;
 }
 
 .cta h3 {
@@ -56,8 +57,22 @@ img {
 }
 
 .bottom {
-    color:white;
+    color: white;
     text-decoration: none;
-    background-color: indianred;
+    background-color: #bd2d27;
     padding: 10px;
+   margin-top: 15px;
+    display: inline-block;
+}
+
+.alignleft {
+    float: left;
+    margin-top: 20px;
+    margin-right: 14px;
+    margin-left: 14px;
+    max-width: 40%;
+}
+
+.cta .alignleft {
+    max-width: 200px;
 }
