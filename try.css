@@ -5,6 +5,7 @@ body {
     color: darkslategrey;
     font-weight: 400;
     font-size: 16px;
+    background: url(img/bgp.png);
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
     font-weight: 700;
     font-family: heebo;
     text-align: center;
-    background-color: #f4ede3;
+    background-color: lightblue;
     padding: 20px;
 }
 
@@ -35,8 +36,6 @@ img {
 .container {
     max-width: 800px;
     margin: auto;
-
-
 }
 
 .cta {
@@ -78,18 +77,45 @@ img {
 }
 
 .news {
-    background: url(img/bgn.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bgn.jpg);
     padding: 80px;
     background-size: cover;
     background-position: center;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 18px;
 
 }
 
-.news h2{
-   color: #bd2d27;
+.news h2 {
+    color: darkseagreen;
 }
 
+input {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-bottom-color:darkseagreen;
+    padding: 5px;
+}
 
+.news .bottom {
+    background-color: rgba(255, 188, 143, 0.45);
+    padding: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: #ffffff;
+    border: none;
+}
+
+label span {
+    display: inline-block;
+    width: 100px;
+}
+
+label {
+    margin-bottom: 20px;
+    display: block;
+}
