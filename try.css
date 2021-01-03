@@ -96,9 +96,14 @@ input {
     color: inherit;
     background: none;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     border-bottom-color:darkseagreen;
     padding: 5px;
+}
+
+input:focus {
+    outline: 0;
+    border-bottom-color: #ffbc8f;
 }
 
 .news .bottom {
@@ -108,6 +113,12 @@ input {
     padding-left: 8px;
     color: #ffffff;
     border: none;
+    border-radius: 4px;
+    transition: .6s;
+}
+
+.news .bottom:hover {
+    background-color: darkseagreen;
 }
 
 label span {
