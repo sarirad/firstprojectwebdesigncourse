@@ -8,26 +8,26 @@ body {
 h1,
 h2,
 h3,
-h4, {
+h4,
+    {
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
-    color: #141414;
+    color: #e0e0e0;
 }
 
-h1{
+h1 {
     line-height: 1.1;
 }
 
 .about {
-    background-color: #f1d742;
+    background-color: #171717;
+    color: #e0e0e0;
 }
 
 .container {
     max-width: 1024px;
     margin: auto;
-    text-align: right;
     padding-top: 20px;
-
 }
 
 img {
@@ -39,21 +39,23 @@ img {
 
 .about .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 30px;
+    text-align: right;
     align-items: center;
 }
 
-.about h1{
+.about h1 {
     text-align: center;
 }
 
 .button {
-    background-color: #141414;
+    border-color: #e0e0e0;
     color: #e0e0e0;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
+    border: 3px solid;
     transition: 1s;
     margin-top: 10px;
     display: inline-block;
@@ -61,9 +63,58 @@ img {
 
 
 .about .button:hover {
-    background-color: #0f4395;
+    background-color: #e0e0e0;
+    color: #171717;
 }
 
-.about img{
+.about img {
     display: block;
+}
+
+.logo {
+  max-width: 50px;
+  display: block;
+  margin: 5px auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery img {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    font-weight: 700;
+}
+
+.cta {
+    background-color: #171717;
+    color: #e0e0e0;
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.icons{
+    display:inline-block;
+    max-width: 70px;
+}
+
+img:hover{
 }
