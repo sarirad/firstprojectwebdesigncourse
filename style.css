@@ -47,16 +47,21 @@ img {
 
 .about h1 {
     text-align: center;
+    font-size: 40px;
+}
+
+.about h2{
+    text-align: right;
+    font-size: 30px;
 }
 
 .button {
-    border-color: #e0e0e0;
     color: #e0e0e0;
     text-decoration: none;
     padding: 10px;
-    border-radius: 5px;
-    border: 3px solid;
-    transition: 1s;
+    border-radius: 10px;
+    border: 3px solid #b92900;
+    transition: 0.5s;
     margin-top: 10px;
     display: inline-block;
 }
@@ -69,6 +74,7 @@ img {
 
 .about img {
     display: block;
+    max-width: 100%;
 }
 
 .logo {
