@@ -92,9 +92,10 @@ p {
     padding-right: 5px;
 }
 
-h2:after {
+h2:before {
     content: "";
-    border-bottom: 3px solid #184473;
-    display: block;
+    border-right: 3px solid #184473;
+    /* display: block; */
     width: 80px;
+    margin-left: 10px;
 }
