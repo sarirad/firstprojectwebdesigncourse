@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'atlas';
+    src: url('fonts/atlas-pro/700/atlas-pro-aaa-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'atlas';
+    src: url('fonts/atlas-pro/400/atlas-pro-aaa-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'atlas';
+    src: url('fonts/atlas-pro/300/atlas-pro-aaa-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almoni';
+    src: url('fonts/almoni-dl/400/almoni-dl-aaa-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'atlas', arial, sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-family: 'atlas';
+}
+
+h2,h3{
+    font-family: 'atlas';
+    color: #184473; 
+}
+
+p {
+    font-family: 'almoni';
+    font-size: 18px;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.3)), url(img/hikingbanner.jpg);
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 150px;
+    background-position: left;
+}
+
+
+.banner h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+
+.button {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 13px;
+    margin-top: 50px;
+    transition: .3s;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #184473;
+}
+
+.button:after {
+    content: ">";
+    padding-right: 5px;
+}
+
+h2:after {
+    content: "";
+    border-bottom: 3px solid #184473;
+    display: block;
+    width: 80px;
+}
