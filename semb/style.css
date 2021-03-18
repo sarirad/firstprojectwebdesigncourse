@@ -30,7 +30,7 @@ body {
     margin: 0;
     font-family: 'atlas', arial, sans-serif;
     line-height: 1.5;
-    padding-bottom: 30px;
+    color: #1e1e1e;
 }
 
 img {
@@ -39,19 +39,23 @@ img {
     height: auto;
 }
 
-h1{
+h1 {
     font-family: 'atlas';
 }
 
-h2,h3{
+h2,
+h3 {
     font-family: 'atlas';
-    color: #184473; 
+    color: #184473;
 }
 
 p {
     font-family: 'almoni';
     font-size: 18px;
-    color: #1e1e1e;
+}
+
+a {
+    color: #fff;
 }
 
 .container {
@@ -64,8 +68,9 @@ p {
     margin: auto;
     text-align: center;
     display: block;
-    padding: 150px;
+    padding: 130px;
     background-position: left;
+    position: relative;
 }
 
 
@@ -80,7 +85,6 @@ p {
     color: #1e1e1e;
     background-color: #fff;
     padding: 13px;
-    margin-top: 50px;
     transition: .3s;
 }
 
@@ -102,14 +106,14 @@ h2:before {
     margin-left: 10px;
 }
 
-.features{
+.features {
     background-color: #1e1e1e;
     text-align: center;
-    padding: 56px;
+    padding-bottom: 56px;
     margin-bottom: 56px;
 }
 
-.features ul{
+.features ul {
     list-style: none;
     padding: 0;
     display: grid;
@@ -117,23 +121,95 @@ h2:before {
     grid-gap: 56px;
 }
 
-.features img{
+.features img {
     max-width: 80px;
 }
 
-.features h1,h3{
+.features h1,
+h3 {
     color: #fff;
     margin: 5px;
 }
 
-.features h1{
+.features h1 {
     font-size: 28px;
     padding-bottom: 48px;
+    padding-top: 48px;
     margin: 0;
 }
 
-.features p{
+.features p {
     color: #fff;
     margin: 0;
+    margin-bottom: 48px;
 }
 
+.about {
+    padding-bottom: 48px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    margin: auto;
+    font-size: 13px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer img {
+    max-width: 30px;
+    margin: 0;
+    padding: 2px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.opening h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin: 16px 0 5px;
+}
+
+.opening h2:before{
+    border-right: 2px solid;
+}
+
+.opening p {
+    margin: 0;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-top: 16px;
+}
+
+.logo p{
+    margin: 0;
+}
+
+.custom-shape-divider-bottom-1616054608 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1616054608 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1616054608 .shape-fill {
+    fill: #1E1E1E;
+}
