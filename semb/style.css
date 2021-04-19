@@ -46,7 +46,7 @@ h1 {
 h2,
 h3 {
     font-family: 'atlas';
-    color: #184473;
+    color: #004a19;
 }
 
 p {
@@ -68,8 +68,9 @@ a {
     margin: auto;
     text-align: center;
     display: block;
-    padding: 130px;
-    background-position: left;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
     position: relative;
 }
 
@@ -79,6 +80,40 @@ a {
     color: #fff;
 }
 
+.header {
+    text-align: center;  
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    background-image: linear-gradient(rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7));
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: inline-block;
+    color: #fff; 
+    margin: 10px;
+}
+
+nav li {
+    background-size: 150%;
+    transition: .3s;
+}
+
+nav li:hover {
+    background-image: linear-gradient(to left, rgba(0, 74, 25, 0.5), rgba(186, 74, 25, 0.5));
+}
+
+nav img{
+    max-width: 56px;
+}
 
 .button {
     text-decoration: none;
@@ -86,11 +121,12 @@ a {
     background-color: #fff;
     padding: 13px;
     transition: .3s;
+    background-size: 120%;
 }
 
 .button:hover {
-    color: #fff;
-    background-color: #184473;
+    color: #1e1e1e;
+    background-image: linear-gradient(to left, rgba(0, 74, 25, 0.8), rgba(186, 74, 25, 0.8));
 }
 
 .button:after {
@@ -100,7 +136,7 @@ a {
 
 h2:before {
     content: "";
-    border-right: 3px solid #184473;
+    border-right: 3px solid #004a19;
     /* display: block; */
     width: 80px;
     margin-left: 10px;
@@ -177,7 +213,7 @@ footer p {
     margin: 16px 0 5px;
 }
 
-.opening h2:before{
+.opening h2:before {
     border-right: 2px solid;
 }
 
@@ -190,7 +226,7 @@ footer p {
     margin-top: 16px;
 }
 
-.logo p{
+.logo p {
     margin: 0;
 }
 
