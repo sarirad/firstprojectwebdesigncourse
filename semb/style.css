@@ -81,37 +81,37 @@ a {
 }
 
 .header {
-    text-align: center;  
+    text-align: center;
+}
+nav{
+    background: rgba(30, 30, 30, 0.7)
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center; 
-    background-image: linear-gradient(rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7));
-
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 nav a {
     text-decoration: none;
-    padding-left: 70px;
-    padding-right: 70px;
-    display: inline-block;
-    color: #fff; 
-    margin: 10px;
-}
-
-nav li {
-    background-size: 150%;
+    padding: 16px;
+    display: block;
+    flex: 1;
+    color: #fff;
     transition: .3s;
+    background-size: 150%;
 }
 
-nav li:hover {
+nav a:hover {
     background-image: linear-gradient(to left, rgba(0, 74, 25, 0.5), rgba(186, 74, 25, 0.5));
 }
 
-nav img{
+nav img {
     max-width: 56px;
 }
 
@@ -122,6 +122,7 @@ nav img{
     padding: 13px;
     transition: .3s;
     background-size: 120%;
+    font-family: 'atlas';
 }
 
 .button:hover {
@@ -134,12 +135,9 @@ nav img{
     padding-right: 5px;
 }
 
-h2:before {
-    content: "";
-    border-right: 3px solid #004a19;
-    /* display: block; */
-    width: 80px;
-    margin-left: 10px;
+.about h2:after{
+    content: ">";
+    margin-right: 10px;
 }
 
 .features {
@@ -182,6 +180,19 @@ h3 {
 
 .about {
     padding-bottom: 48px;
+}
+
+.about ul{
+     list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 56px;
+}
+
+.about h3{
+    color:  #1e1e1e;
+    text-align: center;
 }
 
 footer {
@@ -230,6 +241,25 @@ footer p {
     margin: 0;
 }
 
+.current a{
+    font-weight: 700;
+    color: rgba(186, 74, 25, 0.8);
+}
+
+form{
+    color: #fff;
+}
+
+label span {
+    display: inline-block;
+    width: 100px;
+}
+
+label {
+    margin-bottom: 20px;
+    display: block;
+}
+
 .custom-shape-divider-bottom-1616054608 {
     position: absolute;
     bottom: 0;
@@ -248,4 +278,12 @@ footer p {
 
 .custom-shape-divider-bottom-1616054608 .shape-fill {
     fill: #1E1E1E;
+}
+
+.redback {
+    max-width: 180px;
+}
+
+.packs {
+    max-width: 168px;
 }
