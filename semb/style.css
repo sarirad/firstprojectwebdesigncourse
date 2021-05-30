@@ -127,7 +127,7 @@ nav img {
 }
 
 .button:hover {
-    color: #1e1e1e;
+    color: #fff;
     background-image: linear-gradient(to left, rgba(0, 74, 25, 0.8), rgba(186, 74, 25, 0.8));
 }
 
@@ -265,7 +265,7 @@ footer p {
 
 .current a {
     font-weight: 700;
-    color: rgba(186, 74, 25, 0.8);
+    color: #f6b69a;
 }
 
 form {
@@ -290,6 +290,7 @@ input, textarea {
   box-sizing: border-box;
     background: none;
     border-radius: 2px;
+    transition: 0.3s;
 }
 
 input:focus, textarea:focus{
