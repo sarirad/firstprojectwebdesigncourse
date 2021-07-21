@@ -64,7 +64,6 @@ a {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.3)), url(img/hikingbanner.jpg);
     margin: auto;
     text-align: center;
     display: block;
@@ -74,6 +73,31 @@ a {
     position: relative;
 }
 
+.index .banner {
+    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.3)), url(img/hikingbanner.jpg);
+}
+
+.clothing .banner {
+    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.3)), url(img/cbanner.jpg);
+}
+
+.footwear .banner {
+    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.3)), url(img/2fw.jpg);
+}
+
+.backpacks .banner {
+    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.3)), url(img/bpbanner.jpg);
+    background-position: bottom;
+}
+
+.accessories .banner {
+    background-image: linear-gradient(rgba(0, 74, 25, 0.3), rgba(186, 74, 25, 0.2)), url(img/tentbanner.jpg);
+    background-position: bottom;
+}
+
+.contact .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/store2.jpg);
+}
 
 .banner h1 {
     font-size: 48px;
@@ -124,11 +148,12 @@ nav img {
     transition: .3s;
     background-size: 120%;
     font-family: 'atlas';
+    border-radius: 5px;
 }
 
 .button:hover {
     color: #fff;
-    background-image: linear-gradient(to left, rgba(0, 74, 25, 0.8), rgba(186, 74, 25, 0.8));
+    background-image: linear-gradient(to left, rgba(0, 74, 25, 0.9), rgba(186, 74, 25, 0.9));
 }
 
 .button:after {
@@ -138,7 +163,7 @@ nav img {
 
 .about h2:after {
     content: ">";
-    margin: 10px; 
+    margin: 10px;
 }
 
 .features {
@@ -179,15 +204,44 @@ h3 {
     margin-bottom: 48px;
 }
 
-.info{
+.contact .features {
     text-align: right;
+}
+
+.contact .features p{
+    margin-bottom: 20px;
+}
+
+.contact .features h1:after{
+    content: ">";
+    margin: 10px;
+}
+
+.info {
+    text-align: center;
     margin: auto;
     padding-bottom: 48px;
 }
 
 .info h2:after {
     content: ">";
-    margin: 10px; 
+    margin: 10px;
+}
+
+.info h3 {
+    color: #004a19;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.info .button{
+    border: 3px solid #a74a19;
+    margin-top: 36px;
+}
+
+.info h1{
+    color: #a74a19;
 }
 
 .about {
@@ -211,10 +265,12 @@ h3 {
     text-align: center;
 }
 
-.about .button{
+.about .button {
     border: 1px solid #1e1e1e;
-    border-radius: 5px;
-    
+}
+
+.bike{
+    max-width: 190px;
 }
 
 footer {
@@ -269,33 +325,40 @@ footer p {
 }
 
 form {
-    color: #fff;
+    color: #1e1e1e;
     width: 350px;
     margin: auto;
 }
 
 label {
-  margin-bottom: 20px;
-  display: block;
+    margin-bottom: 20px;
+    display: block;
     text-align: right;
 }
 
-input, textarea {
-  font: inherit;
-  color: inherit;
-  display: block;
-  border: 2px solid #fff;
-  padding: 5px;
-  width: 100%;
-  box-sizing: border-box;
+input,
+textarea {
+    font: inherit;
+    color: inherit;
+    display: block;
+    border: 2px solid #1e1e1e;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
     background: none;
     border-radius: 2px;
     transition: 0.3s;
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
     outline: 0;
- background:#a74a19; box-shadow: inset 0 1px 5px rgba(0,0,0,0.2)
+    background: #a74a19;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2)
+}
+
+.contact .features h1 {
+    padding-bottom: 16px;
 }
 
 .custom-shape-divider-bottom-1616054608 {
@@ -318,7 +381,7 @@ input:focus, textarea:focus{
     fill: #1E1E1E;
 }
 
-.white .custom-shape-divider-bottom-1616054608 .shape-fill{
+.white .custom-shape-divider-bottom-1616054608 .shape-fill {
     fill: #fff;
 }
 
@@ -330,3 +393,6 @@ input:focus, textarea:focus{
     max-width: 168px;
 }
 
+.map {
+    margin-top: 20px;
+}
